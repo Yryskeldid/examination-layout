@@ -1,0 +1,118 @@
+.section_info{
+    text-align: center;
+    color: rgb(0, 0, 247) !important;
+    text-decoration: none !important;
+}
+.button-section{
+    background: #5397AA;
+    padding: 10px 8px;
+    border: 1px solid #5397AA;
+    border-radius: 5px;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+}
+.section{
+    background: #F2F2F2 !important;
+}
+.in_container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-image: url(../img/girl.png) !important;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    @include reduced{
+        height: 320px;
+        background-size: auto 100%;
+    }
+}
+.main_info{
+    padding: 150px 0 !important;
+    @include small_2{
+        padding: 50px !important;
+        h1{
+            font-size: 26px;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
+}
+
+.tell_info{
+    margin-top: 150px;
+    padding: 20px 15px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../img/notebook.png) #313A41;
+    border: 1px solid #313A41;
+    transform: translateX(130px);
+    transform: translateY(120px);
+    @include big{
+        flex-wrap: wrap;
+    }
+    @include medium{
+        transform: translateY(12px);
+    }
+    @include reduced{
+        display: inline-block;
+        width: 45%;
+        .tell_text{
+            font-size: 18px;
+        }
+        .box-button{
+            margin-top: 15px;
+        }
+    }
+    @include small_2{
+        width: 280px;
+    }
+}
+.tell_text{
+    transform: translateY(8px);
+    color: white !important;
+}
+.form_section{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    @include big{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.fielet{
+    outline: none;
+    border: unset;
+    padding: 5px;
+    margin: 8px 8px;
+    @include reduced{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+.form-row{
+    padding: 1px;
+    @include reduced{
+        flex-direction: column;
+    }
+}
+.button-section_2{
+    position: absolute;
+    content: '';
+    background: #5397AA;
+    padding: 10px 8px;
+    border: 1px solid #5397AA;
+    border-radius: 5px;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+}

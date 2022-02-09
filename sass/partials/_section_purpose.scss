@@ -1,0 +1,235 @@
+.in_purpose{
+    background: url(../img/purpose-fon.png) 50% 50% no-repeat;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    @include big{
+        background: url(/img/fon-pur.jpg) no-repeat 100% rgba(236, 236, 236, 0.342);
+    }
+    @include small_2{
+        h5{
+            font-size: 20px;
+        }
+    }
+}
+.purpose{
+    p{
+        color: #5397AA;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 49px;
+    }
+    @include small_2{
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 25px;
+        }
+        .button_purpose{
+            font-size: 12px;
+            text-decoration: none !important;
+            color: white;
+            background: #5397AA;
+            padding: 6px 15px;
+            border-radius: 2.5px;
+        }
+    }
+}
+.texts{
+    margin: 25px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 53px;
+    text-align: center;
+}
+.button_purpose{
+    text-decoration: none !important;
+    color: white;
+    background: #5397AA;
+    padding: 10px 45px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.purpose_icon{
+    margin-left: 5px;
+}
+
+
+.in_purpose_2{
+    margin-top: 125px;
+}
+.purpose_2{
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 45%;
+    }
+    @include medium{
+        flex-direction: column;
+    }
+}
+.purpose_text{
+    margin: 30px 0;
+}
+.purposes_2{
+    h5{
+        margin-bottom: 30px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+.img_purpose_2{
+    width: 50%;
+}
+.in_purpose_1{
+    width: 50%;
+}
+.box_purposes_icon{
+    width: 100%;
+    height: auto;
+}
+.purpose_icon_2{
+    width: 100%;
+    height: auto;
+}
+.purposes_2{
+    h5{
+        text-align: center;
+    }
+    .purpose_img{
+        width: 100%;
+    }
+    @include medium{
+        .img_purpose_2{
+            width: 100%;
+        }
+        .purpose_img{
+            width: 100%;
+        }
+    }
+}
+.purpose_span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #5397AA;
+    margin-left: 10px;
+}
+
+
+
+
+
+.purposes_3{
+    margin-top: 125px;
+    background: url(../img/russia.png) 100%;
+    background-repeat: no-repeat;
+    p{
+        font-weight: 700;
+    }
+    @include medium{
+        .delivery_text{
+            width: 53%;
+            p{
+                line-height: 25px;
+                font-weight: 700;
+            }
+        }
+    }
+    @include medium_reduced{
+        height: 400px;
+        background-size: auto 100%;
+        .delivery{
+            padding: 50px 0;
+        }
+    }
+}
+.delivery{
+    padding: 100px 0;
+    margin-bottom: 125px;
+}
+.delivery_text{
+    width: 40%;
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 34px;
+    }
+}
+
+
+
+
+.purposes_4{
+    margin-bottom: 125px;
+}
+.helps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include big{
+        img{
+            margin-right: 8px;
+        }
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    @include medium{
+        img{
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.purposes_texts_5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 39px;
+    margin-top: 10px;
+    @include huge{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+.purchases_text_5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 164.18%;
+    margin-top: 15px;
+    @include huge{
+        font-size: 14px;
+        line-height: 124.18%;
+    }
+}
+
+
+
+
+.purposes_5{
+    background: url(/img/help-fon.png) 100% no-repeat;
+    color: white;
+    padding: 100px 0 125px;
+    margin-bottom: 125px;
+}
+.purposes_in_5{
+    width: 63%;
+}
+.purposes_link{
+    color: #5397AA !important;
+    text-decoration: none !important;
+}

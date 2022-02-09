@@ -1,0 +1,77 @@
+@mixin make-cols {
+    @for $i from 1 through 12 {
+        $width-col: $i * 100% / 12;
+
+        &-#{$i} {
+            width: $width-col;
+        }
+    }
+}
+@mixin card {
+    min-width: 33%;
+    height: 240px;
+    padding-top: 55px;
+    padding-left: 18%;
+    padding-right: 10px;
+    p{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        color: white;
+    }
+}
+@mixin huge {
+    @media screen and (max-width: 1320px) {
+        @content;
+    }
+}
+@mixin very-big {
+    @media screen and (max-width: 1120px) {
+        @content;
+    }
+}
+@mixin big {
+    @media screen and (max-width: 1050px) {
+        @content;
+    }
+}
+@mixin smol-big {
+    @media screen and (max-width: 895px) {
+        @content;
+    }
+}
+@mixin medium {
+    @media screen and (max-width:826px) {
+        @content;
+    }
+}
+@mixin medium_reduced {
+    @media screen and (max-width:726px) {
+        @content;
+    }
+}
+@mixin reduced {
+    @media screen and (max-width:690px) {
+        @content;
+    }
+}
+@mixin small_2 {
+    @media screen and (max-width:670px) {
+        @content;
+    }
+}
+@mixin ultra-small{
+    @media screen and (max-width: 610px) {
+        @content;
+    }
+}
+@mixin small {
+    @media screen and (max-width:576px) {
+        @content;
+    }
+}
+@mixin ultra-small_2{
+    @media screen and (max-width: 420px) {
+        @content;
+    }
+}

@@ -1,0 +1,55 @@
+.section_payments{
+    margin-bottom: 125px;
+    background: #dedede;
+    padding: 15px;
+}
+.form_payment{
+    display: flex;
+    justify-content: space-between;
+    @include ultra-small{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .form-row_payment{
+            width: 100%;
+        }
+        .fielet_payment{
+            outline: none;
+            border: unset;
+            border-radius: 5px;
+            padding: 8px;
+            width: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+        }
+    }
+}
+.payment_text{
+    transform: translateY(40px);
+}
+.form-row_payment{
+    width: 30%;
+}
+.fielet_payment{
+    outline: none;
+    border: unset;
+    border-radius: 5px;
+    padding: 6.5px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+}
+.coment{
+    outline: none;
+    border: unset;
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+    margin-bottom: 30px;
+}
+.payment_texts{
+    margin-top: 10px;
+    transform: translateY(30px);
+}
+.payments{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,54 @@
+.gloves{
+    width: 250px;
+    height: 320px;
+    background: #5397AA;
+    border-radius: 5px;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        color: white;
+        padding: 0 10px;
+    }
+    @include ultra-small{
+        width: 335px;
+        height: 412px;
+        p{
+            font-size: 17px;
+        }
+    }
+}
+.gloves_boxs{
+    display: flex;
+    justify-content: space-between;
+    @include big{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .gloves{
+            margin: 15px;
+        }
+    }
+}
+.gloves_boxs_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    @include big{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .gloves{
+            margin: 15px;
+        }
+    }
+}
+.gloves_heading{
+    text-align: center;
+    margin-bottom: 30px;
+}

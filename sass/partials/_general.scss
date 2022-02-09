@@ -1,0 +1,40 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: black;
+    background-color: white;
+    }
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: white;
+}
+
+
+// .col{
+//     @include make-cols;
+// }
+// @include small{
+//     .col-sm{
+//         @include make-cols;
+//    }
+// }
+// @include medium{
+//     .col-md{
+//         @include make-cols;
+//     }
+// }

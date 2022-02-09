@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    @include big{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    @include reduced{
+        margin-top: 550px
+    }
+}
+.card_1{
+    @include card;
+    @include big{
+        min-width: 60%;
+        
+    }
+    background: url(../img/lattuce.png) no-repeat;
+}
+.card_button{
+    padding: 8px 22px;
+    text-decoration: none !important;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black !important;
+}
+.card_2{
+    @include card;
+    background: url(../img/netrile.png) no-repeat;
+    @include big{
+        min-width: 60%;
+        
+    }
+}
+.card_3{
+    @include card;
+    background: url(../img/vinul.png) no-repeat;
+    @include big{
+        min-width: 60%;
+    }
+}
+.card_button_2{
+    border: 1px solid #fff;
+    padding: 8px 22px;
+    text-decoration: none !important;
+    border-radius: 5px;
+    color: white !important;
+}
